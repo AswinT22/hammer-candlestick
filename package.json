@@ -9,10 +9,11 @@
   "author": "aswin.t",
   "license": "ISC",
   "dependencies": {
+    "crypto": "^1.0.1",
     "csv-parser": "^2.3.2",
-    "csv-reorder": "^0.1.1",
     "csv-write-stream": "^2.0.0",
     "fs": "0.0.1-security",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "plotly": "^1.0.6"
   }
 }
