@@ -31,7 +31,7 @@ module.exports.filterHammerAndWrite = function (inputFilePath, outputFilePath, r
     })
     .on('end',  () => {
         writer.end();
-        console.log("Find the filtered csv at ./output/hammer.csv");
+        console.log("Find the filtered csv at",  outputFilePath);
         if (render) {
             chartUtils.renderChart(outputFilePath, "filtered-hammer-chart");
         }
