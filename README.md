@@ -29,8 +29,8 @@ A `csv` file named `hammer.csv` will be generated in `output` directory. Which c
 In the console two plotly links will be displayed, which displays the candlestick chart for the given dataset and the filtered hammer candlesticks.
 
 ## Note
-Since I am using plotly for the charts, you must bring a `Account_Name` and `API_KEY`
+Since I am using plotly for the charts, you must bring a `Account_Name` and `API_Key`
 
 [plotly](https://plotly.com/)
 
-Replace your `Account_Name` and `Api_Key` in `./utils/chartUtils.js` to generate charts.
+Replace your `ACCOUNT_NAME` and `API_KEY` in `./utils/chartUtils.js` to generate charts.
