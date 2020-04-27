@@ -3,7 +3,7 @@ const path = require('path');
 const inputFilePath = path.join(__dirname, "src", "data.csv");
 const outputFilePath = path.join(__dirname, "output", "hammer.csv");
 const chartUtils = require(path.join(__dirname,"utils", "chartUtils"));
-const csvUtils = require(path.join(__dirname,"utils", "csvUtils"));
+const patternUtils = require(path.join(__dirname,"utils", "candlestickPatternUtils"));
 function main() {
     if (!fs.existsSync(inputFilePath)) {
         throw "Should contain 'data.csv' under src folder";
@@ -21,7 +21,7 @@ function main() {
         fs.mkdirSync(path.dirname(outputFilePath));
     }
 
-    csvUtils.filterHammerAndWrite(inputFilePath, outputFilePath, true);
+    patternUtils.filterHammerAndWrite(inputFilePath, outputFilePath, true);
 }
 
 main()
