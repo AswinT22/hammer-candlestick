@@ -1,4 +1,4 @@
-# File with heading
+# Hammer Candlestick Algorithm
 
 An algorithm for Hammer candlestick pattern recognition.
 
@@ -30,5 +30,7 @@ In the console two plotly links will be displayed, which displays the candlestic
 
 ## Note
 Since I am using plotly for the charts, you must bring a `Account_Name` and `API_KEY`
+
 [plotly](https://plotly.com/)
+
 Replace your `Account_Name` and `Api_Key` in `./utils/chartUtils.js` to generate charts.
