@@ -31,6 +31,6 @@ In the console two plotly links will be displayed, which displays the candlestic
 ## Note
 Since the code uses plotly for the charts, you must bring your own `Account_Name` and `API_Key`
 
-[plotly](https://plotly.com/)
+[plotly](https://chart-studio.plotly.com/Auth/login/#/)
 
 Replace your `ACCOUNT_NAME` and `API_KEY` in `./utils/chartUtils.js` to generate charts.
