@@ -4,7 +4,7 @@ An algorithm for Hammer candlestick pattern recognition.
 
 [Candlestick patterns](https://en.wikipedia.org/wiki/Candlestick_pattern)
 
-## Installation
+## Build
 
 To install the all the packages :
 
